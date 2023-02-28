@@ -1,1 +1,48 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(2, 50, 2);
+}
+
+.cardBody {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  margin-top: 50px;
+
+  min-height: 300px;
+  width: 250px;
+  height: 30hw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardCenter {
+  text-align: center;
+}
+
+.cardBottom {
+  text-align: start;
+  transform: scale(-1, -1);
+}
+
+.value {
+  color: black;
+  font-size: 80px;
+  text-align: center;
+}
+
+.suit {
+  font-size: 80px;
+}
+
+.red {
+  color: red;
+}
+
+.flip-horizontal {
+  transform: scale(-1, -1);
+}
